@@ -1,0 +1,20 @@
+#!/bin/bash
+
+#Add LibreOffice for Kali Linux 1.1.0
+
+sudo aptitude update
+wait
+sudo apt-get upgrade -y
+wait
+sudo apt-get dist-upgrade -y
+wait
+sudo apt-get install -y software-properties-common
+wait
+sudo apt-get install -y apt-file && apt-file update
+wait
+sudo apt-get install -y python-software-properties
+wait
+sudo apt-get install -y libreoffice
+wait
+sudo apt-get install -y libreoffice-gnome
+wait
